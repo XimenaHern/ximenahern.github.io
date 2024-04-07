@@ -1,152 +1,54 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>About | My First Website</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css"> 
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-		
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<meta name = "viewport" content= "width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="normalize.css"> 
-	</head>
-	<body>
-	    <header>
-	        <a href="index.html"> <img src="https://cdn.pixabay.com/photo/2014/04/02/10/16/fire-303309_960_720.png" height="48px"></a>
-	        <nav>
-	            <ul>
-	                <li><a href="about.html">About Me</a></li>
-	                <li><a href="projects.html">Projects</a></li>
-	                <li><a href="video.html">Videos</a></li>
-	                <li><a href="contact.html">Contact</a></li>
-	            </ul>
-	        </nav>
-	        
-	        <div class="nav">
-                <label for="toggle">&#9776;</label>
-                <input type="checkbox" id="toggle">
-                <div class="menu">
-                    <a href="about.html">About Me</a>
-        	        <a href="projects.html">Projects</a>
-        	        <a href="video.html">Videos</a>
-        	        <a href="contact.html">Contact</a>
-                </div>
-            </div>
-	    </header>
-	    
-	    <main>
-	        <section id = "aboutMe">
-	        <section id = "intro">
-	            <h1>Ximena Hernandez</h1>
-	            <div class = "profile">
-	                <h3>Profile</h3>
-	                <div class = "paragraph">
-	                <p>Integer quam sapien, egestas non rhoncus accumsan, malesuada vel orci. Quisque sagittis purus sit amet volutpat consequat mauris nunc. Purus viverra accumsan in nisl. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla.</p>
-	                </div>
-	            </div>
-	        </section>
-	        <section id = "myResume">
-	            <div class = "resumeContainer">
-                    <section id = "leftColumn">
-                        <div class = "resume">
-                            <h3><a href="#" id="contactBtn" class = "resumeButton">Contact</a></h3>
-                            <div class = "contact-content">
-                                <ul>
-                                    <li><b>Email:</b> ximena_42@icloud.com</li>
-                                    <li><b>Phone:</b> (818) 668-0507</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class = "resume">
-                            <h3><a href="#" id="skillBtn" class = "resumeButton">Skills</a></h3>
-                            <div class = "skill-content">
-                                <ul>
-                                    <li>Communication</li>
-                                        <div class = "skill-bar">
-                                            <div id = "communication"></div>
-                                        </div>
-                                    <li>Responsibility</li>
-                                        <div class = "skill-bar">
-                                            <div id = "responsibility"></div>
-                                        </div>
-                                    <li>Teamwork</li>
-                                        <div class = "skill-bar">
-                                            <div id = "teamwork"></div>
-                                        </div>
-                                    <li>Problem-solving</li>
-                                        <div class = "skill-bar">
-                                            <div id = "problem-solving"></div>
-                                        </div>
-                                    <li>Creativity</li>
-                                        <div class = "skill-bar">
-                                            <div id = "creativity"></div>
-                                        </div>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class = "resume">
-                            <h3><a href="#" id="awardBtn" class = "resumeButton">Achievements and Awards</a></h3>
-                	        <div class = "award-content">
-                    	        <ul>
-                        	        <li>Honors</li>
-                        	        <li>Perfect Attendance</li>
-                        	        <li>Academic Excellence</li>
-                    	        </ul>
-                    	    </div>
-                        </div>
-                    </section>
-        	        <section id ="rightColumn">
-                	    <div class = "resume">
-                	        <h3><a href="#" id="eduBtn" class = "resumeButton">Education</a></h3>
-                	        <div class = "edu-content">
-                	            <ul>
-                                    <li><b>Assurance Learning Academy</b></li>
-                                    <li>2021 - now</li>
-                                    <li>Graduating May 2024</li>
-                                    <li>3.6 GPA</li>
-                                </ul>
-                                <hr>
-                            </div>
-                	    </div>
-                	    <div class = "resume">
-                	        <h3><a href="#" id="clubBtn" class = "resumeButton">Clubs and Activities</a></h3>
-                            <div class = "club-content">
-                                <ul>
-                                    <li>Student leadership</li>
-                                    <li>Community Service</li>
-                                    <li>Dual Enrollment</li>
-                                </ul>
-                                <hr>
-                            </div>
-                	    </div>
-                	    <div class = "resume">
-                	        <h3><a href="#" id="hobBtn" class = "resumeButton">Hobbies and Interests</a></h3>
-                	        <div class = "hob-content">
-                    	        <ul>
-                                    <li>Learning languages</li>
-                                    <li>Volunteering</li>
-                                    <li>Digital art</li>
-                                    <li>Creative writing</li>
-                                </ul>
-                                <hr>
-                            </div>
-            	        </div>
-    	            </section>
-                </div>
-	        </section>
-	    </main>
-	    
-		<footer>
-		    <div class="container">
-		        <p>© 2022 X. Hernandez. All Rights Reserved.</p>
-		    </div>
-		</footer>
-		<script src="script.js"></script>
-	</body>
-</html>
+console.log("scriptsLoaded");
+
+var list = ["apples", "oranges", "grapes"];
+
+var count = list.length;
+
+
+for(var i = 0; i < count; i++){
+    console.log(i);
+    console.log(list[i])
+}
+
+var creditTurnIn = true;
+var testToTake = false;
+
+if(creditTurnIn || testToTake){
+    console.log("go to campus!")
+}
+
+var e = $("body");
+console.log(e);
+
+var e = $("#Hero .button");
+/*e.css("font-size", "30px");
+e.css("background-color", "blue");*/
+console.log(e.width());
+
+
+$("#contactBtn").click(function(){
+   $(".contact-content").toggle("slow") ;
+});
+$("#skillBtn").click(function(){
+   $(".skill-content").toggle("slow") ;
+});
+$("#clubBtn").click(function(){
+   $(".club-content").toggle("slow") ;
+});
+$("#eduBtn").click(function(){
+   $(".edu-content").toggle("slow") ;
+});
+$("#awardBtn").click(function(){
+   $(".award-content").toggle("slow") ;
+});
+$("#hobBtn").click(function(){
+   $(".hob-content").toggle("slow") ;
+});
+
+$(".skill-bar").ready(function(){
+    $("#communication").animate({width: "120px"}, 800);
+    $("#responsibility").animate({width: "120px"}, 800);
+    $("#teamwork").animate({width: "105px"}, 800);
+    $("#problem-solving").animate({width: "120px"}, 800);
+    $("#creativity").animate({width: "105px"}, 800);
+});
