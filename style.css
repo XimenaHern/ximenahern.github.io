@@ -1,0 +1,429 @@
+:root {
+     --color-main:#f2f2f2;
+     --color-background:#262626;
+     --color-accent:#666666;
+     --color-highlight:#f2f2f2;
+     --font-headings:'Roboto Mono', monospace;
+     --font-body:'Merriweather Sans', sans-serif;
+     font-family:var(--font-body);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-headings);
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+}
+
+header nav ul {
+    display:flex;
+    margin:0;
+    padding:0;
+}
+header nav ul li {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+header nav ul li a:hover {
+    background:var(--color-main);
+    color:var(--color-background);
+}
+header nav ul li a {
+    text-decoration:none;
+    display:inline-block;
+    padding-top:16px;
+    padding-bottom:16px;
+    padding-left:16px;
+    padding-right:16px;
+    color:var(--color-main);
+}
+body {
+    background-color:var(--color-background);
+    color:var(--color-main);
+}
+.button {
+    display: inline-block;
+    text-decoration:none;
+    border-radius:6px;
+    background-color:var(--color-background);
+    color:var(--color-main);
+    font-family:var(--font-body);
+    box-shadow:
+    0px
+    5px
+    6px
+	rgba(0, 0, 0, .75);
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.button:hover {
+    background:var(--color-main);
+    color:var(--color-background);
+}
+.cardImage {
+    height:200px;
+    width:200px;
+}
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Card-A {
+    border:solid;
+    background-color:var(--color-accent);
+    max-width:250px;
+}
+#Card-B {
+    border:solid;
+    background-color:var(--color-accent);
+    max-width:250px;
+}
+#Card-C {
+    border:solid;
+    background-color:var(--color-accent);
+    max-width:250px;
+}
+.image-frame {
+    
+}
+.text-frame {
+    padding-left:1.5em;
+    padding-right:1em;
+}
+.Buttons {
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom:1em;
+}
+#Hero {
+    background-color:var(--color-background);
+    background-image:url("https://cdn.pixabay.com/photo/2018/02/23/04/38/computer-3174729_960_720.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    display:grid;
+    align-items:center;
+    align-content:center;
+    text-align:right;
+}
+.cards {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px
+}
+.cards img {
+    width:100%;
+}
+.card {
+    color:var(--color-main);
+    border-width:1px;
+    border-style:solid;
+    box-shadow:0px 4px 12px rgba(0,0,0, .5);
+}
+#video {
+    background-color:var(--color-accent);
+}
+#videos .container {
+    background-color:var(--color-highlight);
+}
+.video-gallery {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 12px
+}
+.video-intro{
+    background-color:var(--color-accent);
+}
+#projectssection {
+    background-color:var(--color-accent);
+}
+#Projects {
+    margin-left:25px;
+    margin-right:25px;
+}
+.projectButtons {
+    display: inline-block;
+    text-decoration:none;
+    border-radius:6px;
+    background-color:var(--color-background);
+    color:var(--color-main);
+    box-shadow:
+    0px
+    5px
+    6px
+	rgba(0, 0, 0, .75);
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.projectButtons:hover {
+    background:var(--color-main);
+    color:var(--color-background);
+}
+.projectsPage{
+    margin-left:50px;
+    margin-right:50px;
+    
+}
+/*.Project-A {
+    background-color:var(--color-accent);
+}
+.Project-B {
+    background-color:var(--color-highlight);
+}
+.Project-C {
+    background-color:var(--color-highlight);
+}*/
+
+#intro {
+	display:flex;
+	flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+.resumeContainer {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-row-gap: 5px;
+    grid-column-gap: 40px;
+}
+#aboutMe {
+    background:var(--color-accent);
+}
+.resume ul li {
+    list-style-type:none;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#aboutMe h1 {
+    border: 2px solid var(--color-highlight);
+    background-color:var(--color-background);
+    color:var(--color-main);
+    width: 530px;
+    padding:5px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:50px;
+}
+#aboutMe h3 {
+    font-size:20px;
+}
+#leftColumn {
+    border-right:2px solid var(--color-highlight);
+    background:var(--color-background);
+}
+#rightColumn {
+    margin-left:40px;
+}
+.resumeButton {
+    display:inline-block;
+    text-decoration:none;
+    border: 2px solid var(--color-highlight);
+    background-color:var(--color-background);
+    color:var(--color-main);
+    width: 150px;
+    padding:5px;
+    padding-left:45px;
+    margin-left:20px;
+}
+.resumeButton:hover {
+    background:var(--color-main);
+    color:var(--color-background);
+}
+#rightColumn .resumeButton {
+    width:270px;
+}
+.skill-bar {
+    border: 2px solid var(--color-highlight);
+    width:150px;
+    height:15px;
+}
+#communication {
+    background:var(--color-accent);
+    width:10px;
+    height:15px;
+}
+#responsibility {
+    background:var(--color-accent);
+    width:10px;
+    height:15px;
+}
+#teamwork {
+    background:var(--color-accent);
+    width:10px;
+    height:15px;
+}
+#problem-solving {
+    background:var(--color-accent);
+    width:10px;
+    height:15px;
+}
+#creativity {
+    background:var(--color-accent);
+    width:10px;
+    height:15px;
+}
+.paragraph {
+    margin-left:250px;
+    margin-right:250px;
+}
+@media (max-width:700px){
+    h1 {
+        font-size:48px;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    #Card-A {
+        max-width:100%;
+    }
+    #Card-B {
+        max-width:100%;
+    }
+    #Card-C{
+        max-width:100%;
+    }
+}
+@media (max-width:950px) {
+    .resumeContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+    #leftColumn .resumeButton {
+        width:270px;
+    }
+    #rightColumn {
+        margin-left:0px;
+    }
+    #aboutMe h1 {
+        font-size:60px;
+    }
+    #aboutMe h3 {
+        font-size:30px;
+    }
+    #aboutMe {
+        font-size:20px;
+    }
+    .paragraph {
+        width:500px;
+    }
+}
+@media (max-width:750px) {
+    .resumeContainer {
+        grid-template-columns: 1fr;
+        align-items:center;
+        text-align:center;
+    }
+    .resumeButton {
+        width:200px;
+        padding-left:5px;
+    }
+    #aboutMe .button {
+        width:130px;
+        padding-left:5px;
+    }
+    #aboutMe h1 {
+        font-size:30px;
+        width:300px;
+    }
+    #aboutMe h3 {
+        font-size:20px;
+    }
+    #aboutMe {
+        font-size:15px;
+    }
+    .paragraph {
+        width:400px;
+    }
+}
+
+.nav {
+    text-align:right;
+    height:70px;
+    line-height:70px;
+    display:none;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    clear:right;
+    text-decoration:none;
+    color:var(--color-main);
+    margin: 0 10px;
+    line-height:70px;
+    display:none;
+}
+
+.toggle {
+    margin: 0 40px 0 0;
+    font-size:20px;
+    line-height:70px;
+    width:26px;
+    float:right;
+}
+
+#toggle {
+    display:none;
+}
+
+/* .nav needs to be display none at normal size and display initial, remove display:block,*/
+@media only screen and (max-width:750px) {
+    
+    .nav {
+        display:initial;
+    }
+    nav {
+        display:none;
+    }
+    
+    .toggle {
+        cursor:pointer;
+    }  
+    .menu {
+        text-align:center;
+        width:100%;
+        display:none;
+    }
+    .menu a {
+        display:block;
+        border-bottom:1px solid #f2f2f2;
+        margin:0;
+    }
+    .menu a:hover {
+        background:var(--color-main);
+        color:var(--color-background);
+    }
+    #toggle:checked + .menu {
+        display:block;
+    }
+}
+
+#Contact {
+    background:var(--color-accent);
+    border:5px solid #f2f2f2;
+}
+
+#Contact h1 {
+    margin-left:50px;
+}
+.contactPage {
+    margin-left:50px;
+}
+label {
+    display:inline-block;
+}
+.input-hint {
+    font-size:10px;
+    padding-left:15px;
+}
+#message {
+    height:100px;
+}
