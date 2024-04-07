@@ -1,1 +1,113 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home | My First Website</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> 
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> 
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> 
+		<link rel="manifest" href="/site.webmanifest">
+		
+		<meta name = "viewport" content= "width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="normalize.css"> 
+	</head>
+	<body>
+	    <header>
+	        <a href="index.html"> <img src="https://cdn.pixabay.com/photo/2014/04/02/10/16/fire-303309_960_720.png" height="48px"></a>
+	        <nav>
+	            <ul>
+	                <li><a href="about.html">About Me</a></li>
+	                <li><a href="projects.html">Projects</a></li>
+	                <li><a href="video.html">Videos</a></li>
+	                <li><a href="contact.html">Contact</a></li>
+	            </ul>
+	        </nav>
+	        
+	        <div class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle">
+                <div class="menu">
+                    <a href="about.html">About Me</a>
+        	        <a href="projects.html">Projects</a>
+        	        <a href="video.html">Videos</a>
+        	        <a href="contact.html">Contact</a>
+                </div>
+            </div>
+	        
+	    </header>
+        <main>
+	        <section id="Hero">
+	            <section>
+	                <div class="container">
+	                    <h1>Headline</h1>
+	                    <a href="#Featured" class="button"> View Projects</a>
+	                </div>
+	            </section>
+	        </section>
+	        <section id="Text-Intro">
+	            <div class="container">
+	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit egestas dui id ornare arcu odio. Magnis dis parturient montes nascetur. Feugiat vivamus at augue eget arcu. Ultrices dui sapien eget mi. Imperdiet sed euismod nisi porta lorem mollis. Morbi non arcu risus quis varius quam quisque. Feugiat nisl pretium fusce id velit ut tortor pretium viverra. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Nulla porttitor massa id neque aliquam.
+	                </p>
+	            </div>
+	        </section>
+	        <section id="Featured">
+	            <div class="container">
+	                <h2>My Featured Area</h2>
+	                    <div class="cards">
+	        <section id="Card-A" class="card">
+	            <div class="image-frame">
+	               <img src="https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_960_720.jpg" class="cardImage">
+	            </div>
+	            <div class="text-frame">
+	                <h3> Card Title A</h3>
+	                <p>Molestie at elementum eu facilisis sed odio morbi. Suscipit tellus mauris a diam. In cursus turpis massa tincidunt dui viverra accumsan in nisl. Eleifend donec pretium vulputate.
+                    </p>
+                </div>
+                <div class= "Buttons">
+                    <a href="#" class="button" class="button:hover">Read More</a>
+                </div>
+	        </section>
+	        <section id="Card-B" class="card">
+	            <div class="image-frame">
+	               <img src="https://cdn.pixabay.com/photo/2017/06/26/12/56/laptop-2443737_960_720.jpg" class="cardImage">
+	                </div>
+	                 <div class="text-frame">
+	                    <h3>Card Title B</h3>
+	                    <p> Quisque sagittis purus sit amet volutpat consequat mauris nunc. Purus viverra accumsan in nisl. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla.
+                        </p>
+                    </div>
+                    <div class="Buttons">
+                        <a href="#" class="button" class="button:hover">Read More</a> 
+                    </div>
+	            </section>
+	            <section id="Card-C" class="card">
+	                <div class="image-frame"><img src="https://cdn.pixabay.com/photo/2018/08/18/13/26/interface-3614766_960_720.png" class="cardImage">
+	                </div>
+	                <div class="text-frame">
+	                    <h3>Card Title C</h3>
+	                    <p>Faucibus scelerisque eleifend donec pretium vulputate. Pulvinar proin gravida hendrerit lectus. Montes nascetur ridiculus mus mauris vitae ultricies leo.
+                        </p>
+                    </div>
+                    <div class="Buttons">
+                        <a href="#" class="button" class="button:hover">Read More</a>
+                    </div>
+                    </div>
+                </div>
+	            </section>
+	        </section>
+        </main>
+	    
+		<footer>
+		    <div class="container">
+		        <p>© 2022 X. Hernandez. All Rights Reserved.</p>
+		    </div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
