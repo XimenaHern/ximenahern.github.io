@@ -171,6 +171,11 @@ body {
     margin-right:50px;
     
 }
+
+.projectsimages{
+	height:200px;
+	width:auto;
+}
 /*.Project-A {
     background-color:var(--color-accent);
 }
