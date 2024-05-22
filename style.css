@@ -137,7 +137,7 @@ main h1 {
     grid-row-gap: 12px
 }
 .video-intro{
-    background-color:var(--color-accent);
+    background-color:var(--color-background);
 }
 #vid-main{
     background:var(--color-accent);
