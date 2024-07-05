@@ -161,14 +161,11 @@ main h1 {
     margin-right:40px;
     border:2px solid var(--color-highlight);
 }
-#Projects {
-    margin-left:25px;
-    margin-right:25px;
+#Projects h1 {
+margin-left:50px;
 }
 .projectsPage{
     margin-left:50px;
-    margin-right:50px;
-    
 }
 .projectsimages{
 	height:300px;
@@ -411,7 +408,7 @@ main h1 {
 
 #Contact {
     background:var(--color-accent);
-    border:5px solid #f2f2f2;
+    border:2px solid #f2f2f2;
     padding-bottom:40px;
     margin-left:40px;
     margin-right:40px;
